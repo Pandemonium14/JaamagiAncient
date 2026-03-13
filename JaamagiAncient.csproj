@@ -75,6 +75,10 @@
             <Private>false</Private>
             <Publicize>False</Publicize> <!--Allows private/protected field references but may cause errors.-->
         </Reference>
+        <Reference Include="BaseLib">
+            <HintPath>$(ModsPath)/BaseLib/BaseLib.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
     </ItemGroup>
 
     <ItemGroup>
