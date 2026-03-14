@@ -1,5 +1,5 @@
 ﻿{
-  "JAAMAGIANCIENT-MELTING_PERMAFROST.description": "Whenever you play a Power, gain 2 Plating",
+  "JAAMAGIANCIENT-MELTING_PERMAFROST.description": "Whenever you play a Power, gain [blue]{PlatingPower}[/blue] [gold]Plating[/gold].",
   "JAAMAGIANCIENT-MELTING_PERMAFROST.flavor": "",
   "JAAMAGIANCIENT-MELTING_PERMAFROST.title": "Melting Permafrost"
 }
