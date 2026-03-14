@@ -1,5 +1,11 @@
 ﻿{
   "JAAMAGIANCIENT-MELTING_PERMAFROST.description": "Whenever you play a Power, gain [blue]{PlatingPower}[/blue] [gold]Plating[/gold].",
   "JAAMAGIANCIENT-MELTING_PERMAFROST.flavor": "",
-  "JAAMAGIANCIENT-MELTING_PERMAFROST.title": "Melting Permafrost"
+  "JAAMAGIANCIENT-MELTING_PERMAFROST.title": "Melting Permafrost",
+  "JAAMAGIANCIENT-COLD_SPARK.title": "Cold Spark",
+  "JAAMAGIANCIENT-COLD_SPARK.description": "The first time each turn you reach [blue]15[/blue] [gold]Block[/gold], gain {Energy:energyIcons()}.",
+  "JAAMAGIANCIENT-COLD_SPARK.flavor": "",
+  "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.description": "At the end of each turn, if you have no [gold]Block[/gold], gain [blue]{Block}[/blue] [gold]Block[/gold]",
+  "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.flavor": "",
+  "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.title": "Ice-Tempered Ingot"
 }
