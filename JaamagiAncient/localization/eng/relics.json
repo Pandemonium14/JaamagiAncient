@@ -7,5 +7,11 @@
   "JAAMAGIANCIENT-COLD_SPARK.flavor": "",
   "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.description": "At the end of each turn, if you have no [gold]Block[/gold], gain [blue]{Block}[/blue] [gold]Block[/gold]",
   "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.flavor": "",
-  "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.title": "Ice-Tempered Ingot"
+  "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.title": "Ice-Tempered Ingot",
+  "JAAMAGIANCIENT-SOLID_BLIZZARD.description": "[gold]Enchant[/gold] all cards that [gold]Block[/gold] in card rewards with [gold]Icy[/gold].",
+  "JAAMAGIANCIENT-SOLID_BLIZZARD.flavor": "",
+  "JAAMAGIANCIENT-SOLID_BLIZZARD.title": "Solid Blizzard",
+  "JAAMAGIANCIENT-FREEZING_FLAME.description": "At the start of your turn, gain [blue]{Block}[/blue] [gold]Block[/gold]. You can increase this amount at rest sites.",
+  "JAAMAGIANCIENT-FREEZING_FLAME.flavor": "",
+  "JAAMAGIANCIENT-FREEZING_FLAME.title": "Freezing Flame"
 }

@@ -100,9 +100,17 @@
 
     <ItemGroup>
         <None Include=".gitignore"/>
+        <None Include="images\ancients\jaamagi_placeholder.png" />
+        <None Include="images\ancients\jaamagi_placeholder.png.import" />
+        <None Include="images\ancients\jaamangi_placeholder.tres" />
+        <None Include="images\ui\run_history\jaamagiancient-jaamagi.png" />
+        <None Include="images\ui\run_history\jaamagiancient-jaamagi.png.import" />
+        <None Include="images\ui\run_history\jaamagiancient-jaamagi_outline.png" />
+        <None Include="images\ui\run_history\jaamagiancient-jaamagi_outline.png.import" />
         <None Include="JaamagiAncient.json"/>
         <None Include="project.godot"/>
         <None Include="JaamagiAncient/**"/>
+        <None Include="scenes\events\background_scenes\jaamagiancient-jaamagi.tscn" />
     </ItemGroup>
 
     <ItemGroup>
@@ -110,6 +118,13 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="images\enchantments\icy.png" />
+      <Content Include="images\enchantments\icy.png.import" />
+      <Content Include="images\ui\rest_site\option_feedflame.png" />
+      <Content Include="images\ui\rest_site\option_feedflame.png.import" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

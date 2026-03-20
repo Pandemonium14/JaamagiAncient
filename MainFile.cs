@@ -1,6 +1,8 @@
 using Godot;
 using HarmonyLib;
+using JaamagiAncient.Relics;
 using MegaCrit.Sts2.Core.Modding;
+using MegaCrit.Sts2.Core.Saves.Runs;
 
 namespace JaamagiAncient;
 
@@ -17,5 +19,12 @@ public partial class MainFile : Node
         Harmony harmony = new(ModId);
 
         harmony.PatchAll();
+        
+        SavedPropertiesTypeCache.InjectTypeIntoCache(typeof(FreezingFlame));
     }
+    
+    /*TODO assets
+     *Cold Spark, Ice Tempered Ingot, Solid Blizzard
+     *Icy icon
+     */
 }
