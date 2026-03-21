@@ -15,7 +15,11 @@ public class Jaamagi : CustomAncientModel
         AncientOption<ColdSpark>(),
         AncientOption<IceTemperedIngot>(),
         AncientOption<SolidBlizzard>(),
-        AncientOption<FreezingFlame>()
+        AncientOption<FreezingFlame>(),
+        AncientOption<CrystalScale>(),
+        AncientOption<PreservedSoul>(),
+        AncientOption<FrostedFlakes>(),
+        AncientOption<BrittleIceberg>()
     ]));
 
     public override bool IsValidForAct(ActModel act)
