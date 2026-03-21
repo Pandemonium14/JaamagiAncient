@@ -20,11 +20,5 @@ public partial class MainFile : Node
 
         harmony.PatchAll();
         
-        SavedPropertiesTypeCache.InjectTypeIntoCache(typeof(FreezingFlame));
     }
-    
-    /*TODO assets
-     *Cold Spark, Ice Tempered Ingot, Solid Blizzard
-     *Icy icon
-     */
 }

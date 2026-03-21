@@ -35,12 +35,12 @@ public class FreezingFlame : CustomRelicModel
         {
             AssertMutable();
             _timesFed = value;
-            DynamicVars.Block.BaseValue = value * 2 + 2;
+            DynamicVars.Block.BaseValue = value * 3M + 3M;
             InvokeDisplayAmountChanged();
         }
     }
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(2M, ValueProp.Unpowered)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(3M, ValueProp.Unpowered)];
 
     public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
     {
