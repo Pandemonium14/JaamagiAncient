@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 using MegaCrit.Sts2.Core.ValueProps;
@@ -20,7 +21,9 @@ public class ColdSpark : CustomRelicModel
     public override RelicRarity Rarity => RelicRarity.Ancient;
     
     private bool usedThisTurn = false;
-    
+
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new EnergyVar(1)];
+
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.ForEnergy(this)];
 
 

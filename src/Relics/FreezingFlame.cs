@@ -35,7 +35,7 @@ public class FreezingFlame : CustomRelicModel
         {
             AssertMutable();
             _timesFed = value;
-            DynamicVars.Block.BaseValue = value * 3M + 3M;
+            DynamicVars.Block.BaseValue = value * 2M + 4M;
             InvokeDisplayAmountChanged();
         }
     }
