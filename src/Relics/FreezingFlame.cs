@@ -40,7 +40,7 @@ public class FreezingFlame : CustomRelicModel
         }
     }
 
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(3M, ValueProp.Unpowered)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(4M, ValueProp.Unpowered)];
 
     public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
     {

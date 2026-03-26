@@ -13,6 +13,13 @@ public class BrittleIceberg : CustomRelicModel
 {
     public override RelicRarity Rarity => RelicRarity.Ancient;
 
+
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/BrittleIceberg.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/BrittleIceberg.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/BrittleIceberg.png";
+
     public override decimal ModifyHpLostAfterOstyLate(Creature target, decimal amount, ValueProp props, Creature? dealer,
         CardModel? cardSource)
     {

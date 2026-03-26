@@ -18,6 +18,12 @@ public class SolidBlizzard : CustomRelicModel
 {
     public override RelicRarity Rarity => RelicRarity.Ancient;
     
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/SolidBlizzard.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/SolidBlizzard.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/SolidBlizzard.png";
+    
     protected override IEnumerable<IHoverTip> ExtraHoverTips => HoverTipFactory.FromEnchantment<Icy>();
     
     public override bool TryModifyCardRewardOptionsLate(

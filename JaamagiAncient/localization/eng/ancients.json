@@ -1,6 +1,43 @@
 ﻿{ 
   "JAAMAGIANCIENT-JAAMAGI.title": "Jäämägi",
   "JAAMAGIANCIENT-JAAMAGI.talk.firstVisitEver.0-0.ancient": "...hmmmrrmm...too...warm...",
-  "JAAMAGIANCIENT-JAAMAGI.epithet": "The First Ice and the Last",
-  "JAAMAGIANCIENT-JAAMAGI.talk.ANY.0-0r.ancient": "...greetings...ice...protects..."
+  "JAAMAGIANCIENT-JAAMAGI.epithet": "The First Ice, and the Last",
+  "JAAMAGIANCIENT-JAAMAGI.talk.ANY.0-0r.ancient": "...greetings...ice...protects...",
+
+  "JAAMAGIANCIENT-JAAMAGI.talk.IRONCLAD.0-0r.ancient": "...demon...fire...stay back...",
+  "JAAMAGIANCIENT-JAAMAGI.talk.IRONCLAD.0-0r.next": "Advance",
+  "JAAMAGIANCIENT-JAAMAGI.talk.IRONCLAD.0-1r.char": "[i][font_size=22]A harsh, cold wind blocks your approach.[/font_size][/i]",
+
+  "JAAMAGIANCIENT-JAAMAGI.talk.SILENT.0-0r.ancient": "...huntress...am I...your prey...?",
+  "JAAMAGIANCIENT-JAAMAGI.talk.SILENT.0-0r.next": "Say nothing",
+  "JAAMAGIANCIENT-JAAMAGI.talk.SILENT.0-1r.char": "...",
+  "JAAMAGIANCIENT-JAAMAGI.talk.SILENT.0-1r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.SILENT.0-2r.ancient": "...no...I am...will be...survivor...",
+
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-0r.ancient": "...a ruler...from beyond...?",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-0r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-1r.char": "Indeed! Do show me proper respect.",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-1r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-2r.ancient": "...beyond...cold...but exposed...",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-2r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-3r.char": "Of course, crossing that hostile expanse require more courage than most possess!",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-3r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.REGENT.0-4r.ancient": "...hmmmrmm...perhaps...one day...",
+
+  "JAAMAGIANCIENT-JAAMAGI.talk.NECROBINDER.0-0r.ancient": "...young one...do you live...?",
+  "JAAMAGIANCIENT-JAAMAGI.talk.NECROBINDER.0-0r.next": "Talk",
+  "JAAMAGIANCIENT-JAAMAGI.talk.NECROBINDER.0-1r.char": "That doesn't matter. I seek vengeance from the Architect.",
+  "JAAMAGIANCIENT-JAAMAGI.talk.NECROBINDER.0-1r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.NECROBINDER.0-2r.ancient": "...Hmmrmmm...a gift, then...for you...",
+
+  "JAAMAGIANCIENT-JAAMAGI.talk.DEFECT.0-0r.ancient": "...construct...but not of him...?",
+  "JAAMAGIANCIENT-JAAMAGI.talk.DEFECT.0-0r.next": "Answer",
+  "JAAMAGIANCIENT-JAAMAGI.talk.DEFECT.0-1r.char": "[i][font_size=22]<affirmative beep>[/font_size][/i]",
+  "JAAMAGIANCIENT-JAAMAGI.talk.DEFECT.0-1r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.DEFECT.0-2r.ancient": "...Hmmrmmm...the world is...as ever...surprising...",
+  "JAAMAGIANCIENT-JAAMAGI.talk.DEFECT.0-2r.next": "Continue",
+  "JAAMAGIANCIENT-JAAMAGI.talk.DEFECT.0-3r.ancient": "...not...good...",
+
+  "JAAMAGIANCIENT-JAAMAGI.talk.ANY.1-0r.ancient": "...once more...?",
+  "JAAMAGIANCIENT-JAAMAGI.talk.ANY.2-0r.ancient": "...no matter...I am...patient..."
 }

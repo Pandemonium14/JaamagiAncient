@@ -20,6 +20,12 @@ public class MeltingPermafrost : CustomRelicModel
 {
     
     public override RelicRarity Rarity => RelicRarity.Ancient;
+    
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/MeltingPermafrost.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/MeltingPermafrost.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/MeltingPermafrost.png";
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<PlatingPower>("PlatingPower",3)];
 
