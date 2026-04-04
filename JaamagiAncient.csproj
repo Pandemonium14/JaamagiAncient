@@ -82,8 +82,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Alchyr.Sts2.BaseLib" Version="*" PrivateAssets="All"/>
-        <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="*"/>
+        <PackageReference Include="Alchyr.Sts2.BaseLib" Version="0.2.6" PrivateAssets="All" />
+        <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="0.1.7" />
         <AdditionalFiles Include="JaamagiAncient/localization/**/*.json"/>
     </ItemGroup>
 
@@ -103,10 +103,6 @@
         <None Include="images\ancients\jaamagi_placeholder.png" />
         <None Include="images\ancients\jaamagi_placeholder.png.import" />
         <None Include="images\ancients\jaamangi_placeholder.tres" />
-        <None Include="images\ui\run_history\jaamagiancient-jaamagi.png" />
-        <None Include="images\ui\run_history\jaamagiancient-jaamagi.png.import" />
-        <None Include="images\ui\run_history\jaamagiancient-jaamagi_outline.png" />
-        <None Include="images\ui\run_history\jaamagiancient-jaamagi_outline.png.import" />
         <None Include="JaamagiAncient.json"/>
         <None Include="project.godot"/>
         <None Include="JaamagiAncient/**"/>
@@ -125,8 +121,11 @@
       <Content Include="images\enchantments\icy.png.import" />
       <Content Include="images\packed\map\ancients\ancient_node_jaamagiancient-jaamagi.png" />
       <Content Include="images\packed\map\ancients\ancient_node_jaamagiancient-jaamagi.png.import" />
+      <Content Include="images\packed\map\ancients\ancient_node_jaamagiancient-jaamagi_outline.png" />
       <Content Include="images\ui\rest_site\option_feedflame.png" />
       <Content Include="images\ui\rest_site\option_feedflame.png.import" />
+      <Content Include="images\ui\run_history\jaamagiancient-jaamagi.png" />
+      <Content Include="images\ui\run_history\jaamagiancient-jaamagi_outline.png" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

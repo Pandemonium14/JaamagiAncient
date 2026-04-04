@@ -1,4 +1,5 @@
 ﻿using BaseLib.Abstracts;
+using BaseLib.Hooks;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
@@ -9,7 +10,7 @@ using MegaCrit.Sts2.Core.Models.RelicPools;
 namespace JaamagiAncient.Relics;
 
 [Pool(typeof(EventRelicPool))]
-public class FrostedFlakes : CustomRelicModel
+public class FrostedFlakes : CustomRelicModel, IHealAmountModifier
 {
     public override RelicRarity Rarity => RelicRarity.Ancient;
 
@@ -20,8 +21,9 @@ public class FrostedFlakes : CustomRelicModel
         await CreatureCmd.GainMaxHp(Owner.Creature, DynamicVars.MaxHp.BaseValue);
         await CreatureCmd.Heal(Owner.Creature, Owner.Creature.MaxHp * 2);
     }
-
-    public override decimal ModifyHealAmount(Creature creature, decimal amount)
+    
+    
+    public Decimal ModifyHealMultiplicative(Creature creature, decimal amount)
     {
         return amount/2M;
     }

@@ -7,7 +7,7 @@ using MegaCrit.Sts2.Core.Models;
 
 namespace JaamagiAncient;
 
-[Pool(typeof(AncientEventModel))]
+//[Pool(typeof(AncientEventModel))]
 public class Jaamagi : CustomAncientModel
 {
     protected override OptionPools MakeOptionPools => new OptionPools(MakePool([
