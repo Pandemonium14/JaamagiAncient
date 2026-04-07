@@ -19,6 +19,12 @@ namespace JaamagiAncient.Relics;
 [Pool(typeof(EventRelicPool))]
 public class FreezingFlame : CustomRelicModel
 {
+    
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/FreezingFlame.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/FreezingFlame.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/FreezingFlame.png";
     public override RelicRarity Rarity => RelicRarity.Ancient;
 
     private int _timesFed;

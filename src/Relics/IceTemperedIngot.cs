@@ -14,6 +14,12 @@ namespace JaamagiAncient.Relics.Relics;
 [Pool(typeof(EventRelicPool))]
 public class IceTemperedIngot : CustomRelicModel
 {
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/IceTemperedIngot.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/IceTemperedIngot.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/IceTemperedIngot.png";
+    
     public override RelicRarity Rarity => RelicRarity.Ancient;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(12M, ValueProp.Unpowered)];

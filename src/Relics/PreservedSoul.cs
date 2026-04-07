@@ -18,6 +18,13 @@ namespace JaamagiAncient.Relics;
 [Pool(typeof(EventRelicPool))]
 public class PreservedSoul : CustomRelicModel
 {
+    
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/PreservedSoul.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/PreservedSoul.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/PreservedSoul.png";
+    
     public override RelicRarity Rarity => RelicRarity.Ancient;
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>

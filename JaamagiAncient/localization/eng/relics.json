@@ -4,7 +4,7 @@
   "JAAMAGIANCIENT-MELTING_PERMAFROST.title": "Melting Permafrost",
   
   "JAAMAGIANCIENT-COLD_SPARK.title": "Cold Spark",
-  "JAAMAGIANCIENT-COLD_SPARK.description": "The first time each turn you reach [blue]15[/blue] [gold]Block[/gold], gain {Energy:energyIcons()}.",
+  "JAAMAGIANCIENT-COLD_SPARK.description": "If you end your turn with [blue]15[/blue] [gold]Block[/gold] or more, gain {Energy:energyIcons()} next turn.",
   "JAAMAGIANCIENT-COLD_SPARK.flavor": "Could give great power, if only the ice could be melted or broken.",
   
   "JAAMAGIANCIENT-ICE_TEMPERED_INGOT.description": "At the end of each turn, if you have no [gold]Block[/gold], gain [blue]{Block}[/blue] [gold]Block[/gold]",

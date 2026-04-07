@@ -16,6 +16,11 @@ namespace JaamagiAncient.Relics;
 [Pool(typeof(EventRelicPool))]
 public class CrystalScale : CustomRelicModel
 {
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/CrystalScale.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/CrystalScale.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/CrystalScale.png";
     public override RelicRarity Rarity => RelicRarity.Ancient;
 
     public override async Task AfterObtained()

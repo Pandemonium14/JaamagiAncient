@@ -12,6 +12,12 @@ namespace JaamagiAncient.Relics;
 [Pool(typeof(EventRelicPool))]
 public class FrostedFlakes : CustomRelicModel, IHealAmountModifier
 {
+    public override string PackedIconPath => "res://JaamagiAncient/RelicImages/small/FrostedFlakes.png";
+
+    protected override string PackedIconOutlinePath => "res://JaamagiAncient/RelicImages/outline/FrostedFlakes.png";
+
+    protected override string BigIconPath => "res://JaamagiAncient/RelicImages/large/FrostedFlakes.png";
+    
     public override RelicRarity Rarity => RelicRarity.Ancient;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new MaxHpVar(40M)];
