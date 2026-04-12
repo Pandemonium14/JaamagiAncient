@@ -23,7 +23,7 @@
   "JAAMAGIANCIENT-FROSTED_FLAKES.flavor": "",
   "JAAMAGIANCIENT-FROSTED_FLAKES.title": "Frosted Flakes",
   
-  "JAAMAGIANCIENT-BRITTLE_ICEBERG.description": "Damage to your HP is doubled. [gold]Block[/gold] is not removed at the start of your turn.",
+  "JAAMAGIANCIENT-BRITTLE_ICEBERG.description": "[gold]Block[/gold] is not removed at the start of your turn. Damage to your HP is [red]doubled.[/red]",
   "JAAMAGIANCIENT-BRITTLE_ICEBERG.flavor": "",
   "JAAMAGIANCIENT-BRITTLE_ICEBERG.title": "Brittle Iceberg",
  

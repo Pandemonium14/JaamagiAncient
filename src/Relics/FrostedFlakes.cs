@@ -31,6 +31,8 @@ public class FrostedFlakes : CustomRelicModel, IHealAmountModifier
     
     public Decimal ModifyHealMultiplicative(Creature creature, decimal amount)
     {
-        return amount/2M;
+        if (Owner.Creature !=  creature) return 1M;
+        
+        return 0.5M;
     }
 }

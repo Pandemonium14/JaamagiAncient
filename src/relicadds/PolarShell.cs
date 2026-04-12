@@ -14,8 +14,10 @@ namespace JaamagiAncient.relicadds;
 [Pool(typeof(EventCardPool))]
 public class PolarShell : CustomCardModel
 {
+    public override string? CustomPortraitPath => "res://JaamagiAncient/CardImages/PolarShell.png";
+
     public PolarShell() :
-        base(1, CardType.Skill, CardRarity.Event, TargetType.Self, true)
+        base(1, CardType.Skill, CardRarity.Ancient, TargetType.Self, true)
     {
         
     }

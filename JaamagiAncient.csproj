@@ -118,7 +118,6 @@
 
     <ItemGroup>
       <Content Include="images\enchantments\icy.png" />
-      <Content Include="images\enchantments\icy.png.import" />
       <Content Include="images\packed\map\ancients\ancient_node_jaamagiancient-jaamagi.png" />
       <Content Include="images\packed\map\ancients\ancient_node_jaamagiancient-jaamagi.png.import" />
       <Content Include="images\packed\map\ancients\ancient_node_jaamagiancient-jaamagi_outline.png" />
